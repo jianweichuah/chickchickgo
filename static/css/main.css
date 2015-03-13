@@ -1,0 +1,96 @@
+.center {
+    width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+
+img.signout {
+	vertical-align: middle;
+}
+
+img.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.signin, .signed_in {
+	right: 15px;
+	top: 10px;
+	position: absolute;
+}
+
+.top_keywords, .query_words {
+	text-align: center;
+}
+
+.keywords_table {
+	margin-left: auto; 
+    margin-right: auto;
+}
+
+tr {
+	text-align: center;
+}
+
+td {
+	width: 100px;
+	text-align: center;
+}
+
+.textbox {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 27px;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+.search_button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #222;
+	font-size: 17px;
+}
+
+.title {
+	font-size: 20px;
+	font-family: Georgia, serif;
+}
+
+.error {
+	margin-left: auto;
+    margin-right: auto;
+    width: 30em
+}
+
+.error_code {
+	font-size: 40px;
+}
+
+.error_message {
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.result_url {
+	white-space: pre-line;
+	word-wrap:break-word;
+}
+
+.result_urls {
+	white-space: pre-wrap;
+}
+
+.pagination {
+	text-align: center;
+}
+
+.math_answer {
+	font-size: 40px;
+}
