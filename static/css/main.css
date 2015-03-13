@@ -1,13 +1,21 @@
 .center {
-    width: 700px;
+	width: 50%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 50px;
+	padding-top: 7%;
+	text-align: center;
 }
 
-img.signout {
-	vertical-align: middle;
+.center a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.name {
+	margin-top: 10px;
+	font-size: 40px;
+	margin-bottom: 20px;
 }
 
 img.logo {
@@ -16,57 +24,88 @@ img.logo {
 	margin-right: auto;
 }
 
-img.signin, .signed_in {
-	right: 15px;
-	top: 10px;
-	position: absolute;
-}
-
-.top_keywords, .query_words {
-	text-align: center;
-}
-
-.keywords_table {
-	margin-left: auto; 
-    margin-right: auto;
-}
-
-tr {
-	text-align: center;
-}
-
-td {
-	width: 100px;
-	text-align: center;
-}
-
-.textbox {
+.search-home {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 700px;
-	height: 27px;
-	padding-left: 10px;
-	font-size: 16px;
+	position: relative;
+	height: 2.8em;
+	background-color: #fff;
+	border: 1px solid #cccdc8;
+	padding-left: 0.75em;
+	padding-right: 3.5em;
+}
+
+.querybox {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	font-size: 1.1em;
+	font-weight: normal;
+	display: block;
+	width: 100%;
+	background: none;
+	outline: none;
+	border: none;
+	padding: 0;
+	height: 2.54545em;
+	z-index: 1;
+	position: relative;
+	top: -1px;
 }
 
 .search_button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+
+	width: 3.5em;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	color: #222;
-	font-size: 17px;
+	cursor: pointer;
+	text-align: center;
+	border: none;
+	border-radius: 2px;
+
+	height: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: auto;
+	margin: auto;
+	z-index: 2;
+	outline: none;
+
+	background: url("/static/img/search-icon.svg");
+	background-size: 2.5em 2.5em;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent;
 }
 
-.title {
-	font-size: 20px;
-	font-family: Georgia, serif;
+.search_button:hover, .search_button:active {
+	background-color: #cc181e;
 }
 
 .error {
 	margin-left: auto;
-    margin-right: auto;
-    width: 30em
+	margin-right: auto;
+	width: 30em
 }
 
 .error_code {
