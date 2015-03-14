@@ -98,7 +98,9 @@ img.logo {
 	background-color: transparent;
 }
 
-.search_button:hover, .search_button:active {
+.search-home:hover .search_button,
+.search_button:hover, 
+.search_button:active {
 	background-color: #cc181e;
 }
 

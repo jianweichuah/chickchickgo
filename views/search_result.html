@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>ChickChickGo</title>
-		<link rel="icon" type="image/png" href="static/img/favicon.png"></link>
-		<link rel="stylesheet" type="text/css" href="static/css/search_result.css"></link>
-	</head>
-	<body>
-		<div class="center">
-			<a href="/"><img class="logo" src="static/img/logo.gif" alt="ChickChickGo logo"></a>
-			<br>
-			<form>
-				<input id="query" class="textbox" type="text" name="keywords">
-				<br>
-				<input class="search_button" type="submit" value="search">
-			</form>
-		</div>
-	</body>
+    <head>
+        <title>ChickChickGo</title>
+        <link rel="icon" type="image/png" href="static/img/favicon.png"></link>
+        <link rel="stylesheet" type="text/css" href="static/css/search_result.css"></link>
+    </head>
+    <body>
+        <div class="search-bar">
+            <a href="/"><img class="logo" src="static/img/logo.gif" alt="ChickChickGo logo"></a>
+            <form class="search-result-page" method="GET" action="/">
+                <input id="query" class="querybox" type="text" name="q" placeholder="Search something about Jian (e.g. resume)" value="{{query_string}}">
+                <input id="search-btn" class="search_button" type="submit" value="">
+            </form>
+        </div>
+        <div class="search-results">
+        </div>
+    </body>
 </html>
